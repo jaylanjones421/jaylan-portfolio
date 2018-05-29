@@ -327,3 +327,18 @@ i {
 #portfolio {
   background-color: #286da9;
 }
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5em;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+.center > a {
+  color: white;
+  text-decoration: none;
+}
+.center > a:hover {
+  color: #1194ff;
+}
