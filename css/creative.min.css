@@ -39,12 +39,18 @@ h6 {
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+.text-faded > a:hover {
+  color: white;
 }
 section {
   padding: 8rem 0;
 }
 .section-heading {
   margin-top: 0;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
 }
 ::-moz-selection {
   color: #fff;
@@ -323,7 +329,9 @@ a {
 }
 i {
   height: 30px;
+  margin: 10px;
 }
+
 #portfolio {
   background-color: #286da9;
 }
@@ -334,6 +342,7 @@ i {
   color: white;
   font-size: 1.5em;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  padding: 10px;
 }
 .center > a {
   color: white;
