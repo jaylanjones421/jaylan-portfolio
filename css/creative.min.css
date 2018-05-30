@@ -351,3 +351,6 @@ i {
 .center > a:hover {
   color: #1194ff;
 }
+.section-heading span {
+  font-size: 1.5em;
+}
