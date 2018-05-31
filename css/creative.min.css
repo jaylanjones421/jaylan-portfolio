@@ -354,3 +354,8 @@ i {
 .section-heading span {
   font-size: 1.5em;
 }
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
